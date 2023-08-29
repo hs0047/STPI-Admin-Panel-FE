@@ -1,4 +1,5 @@
-const baseUrl = "http://localhost:5000";
+// const baseUrl = "http://localhost:5000";
+const baseUrl = "https://stpi-admin-pannel-be.onrender.com/";
 export const GET_CUSTOMER_DATA = baseUrl + "/getCustomers";
 export const GET_PROPERTY_DATA = baseUrl + "/getProducts";
 export const ALTER_CUSTOMER_DATA = baseUrl + "/alterCustomer";

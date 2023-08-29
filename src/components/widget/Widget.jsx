@@ -31,9 +31,9 @@ const Widget = ({ type }) => {
       break;
     case "order":
       data = {
-        title: "ORDERS",
+        title: "Products",
         isMoney: false,
-        link: "View all orders",
+        link: "View all Products",
         icon: (
           <ShoppingCartOutlinedIcon
             className="icon"
@@ -83,7 +83,7 @@ const Widget = ({ type }) => {
       <div className="left">
         <span className="title">{data.title}</span>
         <span className="counter">
-          {data.isMoney && "$"} {amount}
+          {data.isMoney && "₹"} {amount}
         </span>
         <span className="link">{data.link}</span>
       </div>
